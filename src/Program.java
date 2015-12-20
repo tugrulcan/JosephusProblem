@@ -70,7 +70,7 @@ public class Program {
 			soldiers.put(indiceofpreAliveSoldier , 0);
 			System.out.println((indiceofpreAliveSoldier + 1 )+ "'th soldier was killed...");
 		}
-		System.out.println("\n\n2Soldiers are alive! Alive soldiers are; ");
+		System.out.println("\n\n2 Soldiers are alive! Alive soldiers are; ");
 		for (int key : soldiers.keySet()) {
 			if(soldiers.get(key) == 1)
 				System.out.println(key+1 + ". soldier");
